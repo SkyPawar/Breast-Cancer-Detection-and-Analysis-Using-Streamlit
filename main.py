@@ -15,10 +15,10 @@ df['target'] = y
 # Streamlit web app
 def main():
     st.title("Breast Cancer Detection")
-    
+     st.image('breastcancer.jpg')
     st.write("Breast Cancer Database: ")
     st.write(df)
-    st.image('breastcancer.jpg')
+   
     st.set_option('deprecation.showPyplotGlobalUse', False)
     # Sidebar with user input
     st.sidebar.header("User Input")
