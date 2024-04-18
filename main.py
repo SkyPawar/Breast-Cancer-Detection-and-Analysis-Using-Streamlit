@@ -12,12 +12,13 @@ feature_names = breast_cancer.feature_names
 # Create DataFrame
 df = pd.DataFrame(X, columns=feature_names)
 df['target'] = y
-st.write("Breast Cancer Database: ")
-st.write(df)
-
 # Streamlit web app
 def main():
     st.title("Breast Cancer Detection")
+    
+    st.write("Breast Cancer Database: ")
+    st.write(df)
+    st.image('breastcancer.jpg')
     st.set_option('deprecation.showPyplotGlobalUse', False)
     # Sidebar with user input
     st.sidebar.header("User Input")
