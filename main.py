@@ -15,7 +15,7 @@ df['target'] = y
 # Streamlit web app
 def main():
     st.title("Breast Cancer Detection")
-     st.image('breastcancer.jpg')
+    st.image('breastcancer.jpg')
     st.write("Breast Cancer Database: ")
     st.write(df)
    
