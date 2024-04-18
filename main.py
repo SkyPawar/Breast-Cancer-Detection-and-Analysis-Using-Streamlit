@@ -179,5 +179,5 @@ def main():
     st.subheader("Breast Cancer Treatment Centers Across India")
     st.map(map_df, use_container_width=True, zoom = map_zoom)
 st.balloons()
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
